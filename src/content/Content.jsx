@@ -83,7 +83,7 @@ class Converter extends React.Component {
    Che = function (props) {
       return (
          <>
-            <select name="currencyOne" id=""
+            <select name="currencyOne" id="select2"
                ref={this.select1}
                onChange={
                   (e) => {
@@ -92,11 +92,13 @@ class Converter extends React.Component {
                      this.setState({ valueCurrency1: n }, () => {
                         this.checkingValues("input1")
                      });
-                  }} >
+                  }}
+            >
+
                <option > select  </option>
-               <option ref={this.usdRef} value={props.getRateUsd}>USD</option>
-               <option ref={this.eurRef} value={props.getRateEur}>EUR</option>
-               <option ref={this.uahRef} value={1}>UAH</option>
+               <option ref={this.usdRef} value={props.getRateUsd} className="select_usd">USD</option>
+               <option ref={this.eurRef} value={props.getRateEur} className="select_eur">EUR</option>
+               <option ref={this.uahRef} value={1} className="select_uah">UAH</option>
             </select>
             <input type="number" name="currencyOne" id="input1"
                ref={this.input_1}
@@ -114,7 +116,7 @@ class Converter extends React.Component {
                      this.smartConvert(e)
                   }}
             />
-            <select name="currencyTwo" id=""
+            <select name="currencyTwo" id="select1"
                ref={this.select2}
                onChange={
                   (e) => {
@@ -126,9 +128,9 @@ class Converter extends React.Component {
                   }
                }>
                <option > select  </option>
-               <option ref={this.usdRef} value={props.getRateUsd}>USD</option>
-               <option ref={this.eurRef} value={props.getRateEur}>EUR</option>
-               <option ref={this.uahRef} value={1}>UAH</option>
+               <option ref={this.usdRef} value={props.getRateUsd} className="select_usd">USD</option>
+               <option ref={this.eurRef} value={props.getRateEur} className="select_eur">EUR</option>
+               <option ref={this.uahRef} value={1} className="select_uah">UAH</option>
             </select>
          </>
       )
@@ -150,6 +152,7 @@ class Converter extends React.Component {
       return (
          <>
             <select name="" id=""
+               className="changeCurrenty"
                onInput={
                   (e) => {
                      this.setState({ ex: e.target.value }, () => {
@@ -158,8 +161,8 @@ class Converter extends React.Component {
                      })
                   }}
             >
-               <option defaultValue="buy"> buy </option>
-               <option value="sell"> sell </option>
+               <option defaultValue="buy" className="change_buy"> buy </option>
+               <option value="sell" className="change_sell"> sell </option>
             </select>
             {
                this.change()

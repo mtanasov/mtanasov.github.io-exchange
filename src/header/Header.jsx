@@ -44,8 +44,8 @@ class Valuta extends React.Component {
          return (
             <div className="v">
                {/* { */}
-               <span>{this.getPrice(840, 980, "USD", items)}</span>
-               <span>{this.getPrice(978, 980, "EUR", items)}</span>
+               <span className="usd">{this.getPrice(840, 980, "USD", items)}</span>
+               <span className="eur">{this.getPrice(978, 980, "EUR", items)}</span>
             </div>
          )
       }
@@ -55,7 +55,7 @@ class Valuta extends React.Component {
 export function Header(props) {
    return (
       <div id="header">
-         <h1> exchange</h1>
+         <h1> monobank exchange</h1>
          <Valuta mbAPI={props.mbAPI} />
       </div>
    )

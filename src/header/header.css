@@ -1,26 +1,8 @@
-#header {
-   display: flex;
-   width: 100vw;
-   background-color: #fd0;
-   padding: 15px;
-   gap: 20px;
-   flex-direction: row;
-   align-content: center;
-   justify-content: space-evenly;
-}
-
 h1 {
    padding: 0;
    margin: -10px;
    height: auto;
-}
 
-.valutaHeader {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   gap: 10px;
-   align-items: center;
 }
 
 .nCurrency {
@@ -35,19 +17,4 @@ h1 {
 .sell {
    border: 5px solid black;
 
-}
-
-.valutaHeader>* {
-   padding: 0 7px;
-   font-weight: 700;
-}
-
-.v {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: 10px;
-   /* width: 200px; */
-   /* height: 100px; */
-   /* background-color: beige; */
 }

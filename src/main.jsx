@@ -5,6 +5,7 @@ import './index.css'
 
 import { Header } from "./header/Header"
 import { Content } from "./content/Content"
+import "./styleMedia.css"
 // import { monobankAPI } from "./monobank"
 
 (function () {
