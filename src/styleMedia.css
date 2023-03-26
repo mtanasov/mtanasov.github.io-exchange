@@ -15,7 +15,7 @@
 h1 {
    font-size: 16px;
    color: #595050;
-   padding: 0;
+   padding: 20px;
    margin: -10px;
    height: auto;
    font-family: 'Reem Kufi Ink', sans-serif;
@@ -35,12 +35,14 @@ h1 {
    align-items: center;
    justify-content: center;
    gap: 10px;
+   padding: 10px;
    /* width: 200px; */
    /* height: 100px; */
    /* background-color: beige; */
 }
 
 .valutaHeader>* {
+   text-align: center;
    padding: 0 7px;
    border: 2px solid #595050;
    font-size: 21px;
@@ -83,15 +85,15 @@ h1 {
 }
 
 .changeCurrenty {
-   background-color: khaki;
+   background-color: rgb(140, 240, 162);
 }
 
 .change_buy {
-   background-color: #94bd6b;
+   background-color: #c0f68a;
 }
 
 .change_sell {
-   background-color: red;
+   background-color: #d88686;
 }
 
 .select_usd {
