@@ -16,7 +16,7 @@ import "./styleMedia.css"
       (result) => {
         const dataAPI = result
         console.log("ответ API получен")
-        console.log(dataAPI);
+        // console.log(dataAPI);
         ReactDOM.createRoot(document.getElementById('root')).render(
           // <React.StrictMode>
           <div>

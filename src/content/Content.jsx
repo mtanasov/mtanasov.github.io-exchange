@@ -47,7 +47,7 @@ class Converter extends React.Component {
                this.setState({ inputCurrency2: v },
                   (e) => {
                      this.input_2.current.value = this.state.inputCurrency2
-                     console.log(this.input_1.current.value)
+                     // console.log(this.input_1.current.value)
                   })
             }
             break;
@@ -57,7 +57,7 @@ class Converter extends React.Component {
                this.setState({ inputCurrency1: v },
                   (e) => {
                      this.input_1.current.value = this.state.inputCurrency1
-                     console.log(this.input_2.current.value)
+                     // console.log(this.input_2.current.value)
                   })
             }
             break;
@@ -68,13 +68,13 @@ class Converter extends React.Component {
 
    smartConvert = function (e) {
       if (e.target.id === "input1") {
-         console.log("id: " + e.target.id)
+         // console.log("id: " + e.target.id)
          this.setState({ inputCurrency1: Number(e.target.value) }, (e) => {
             this.checkingValues("input1")
          })
       }
       if (e.target.id === "input2") {
-         console.log("id: " + e.target.id)
+         // console.log("id: " + e.target.id)
          this.setState({ inputCurrency2: Number(e.target.value) }, (e) => {
             this.checkingValues("input2")
          })
@@ -88,7 +88,7 @@ class Converter extends React.Component {
                onChange={
                   (e) => {
                      const n = Number(e.target.value)
-                     console.log("стоимость выбраной валюты 1: " + n)
+                     // console.log("стоимость выбраной валюты 1: " + n)
                      this.setState({ valueCurrency1: n }, () => {
                         this.checkingValues("input1")
                      });
@@ -121,7 +121,7 @@ class Converter extends React.Component {
                onChange={
                   (e) => {
                      const n = Number(e.target.value)
-                     console.log("стоимость выбраной валюты 2: " + n)
+                     // console.log("стоимость выбраной валюты 2: " + n)
                      this.setState({ valueCurrency2: n }, () => {
                         this.checkingValues("input2")
                      })
@@ -156,7 +156,7 @@ class Converter extends React.Component {
                onInput={
                   (e) => {
                      this.setState({ ex: e.target.value }, () => {
-                        console.log("ch: " + e.target.value)
+                        // console.log("ch: " + e.target.value)
                         this.change()
                      })
                   }}

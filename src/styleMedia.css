@@ -1,124 +1,120 @@
 @media screen and (min-width: 170px) and (max-width: 570px) {
-   #header {
-      display: flex;
-      padding: 15px;
-      gap: 20px;
-      flex-direction: column;
-      align-content: center;
-      justify-content: space-evenly;
-      text-align: center;
-   }
+  #header {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
 }
 
 h1 {
-   font-size: 16px;
-   color: #595050;
-   padding: 20px;
-   margin: -10px;
-   height: auto;
-   font-family: 'Reem Kufi Ink', sans-serif;
-   text-align: center;
+  font-size: 16px;
+  color: #595050;
+  padding: 20px;
+  margin: -10px;
+  height: auto;
+  font-family: "Reem Kufi Ink", sans-serif;
+  text-align: center;
 }
 
 .valutaHeader {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   gap: 10px;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
 }
 
 .v {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
-   padding: 10px;
-   /* width: 200px; */
-   /* height: 100px; */
-   /* background-color: beige; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  /* width: 200px; */
+  /* height: 100px; */
+  /* background-color: beige; */
 }
 
-.valutaHeader>* {
-   text-align: center;
-   padding: 0 7px;
-   border: 2px solid #595050;
-   font-size: 21px;
-   width: 50px;
-   background-color: transparent;
-   font-family: 'Anton', sans-serif;
-   letter-spacing: 1.5px;
-   border-radius: 12px;
-
+.valutaHeader > * {
+  text-align: center;
+  padding: 0 7px;
+  border: 2px solid #706666d9;
+  font-size: 21px;
+  width: 50px;
+  background-color: transparent;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 1.5px;
+  border-radius: 12px;
 }
 
-.usd>*>* {
-   color: hsl(340 85% 50% / 1);
+.usd > * > * {
+  color: hsl(98.06deg 100% 30.14%);
 }
 
-.eur>*>* {
-   color: hsl(225 85% 50% / 1);
+.eur > * > * {
+  color: hsl(211.35deg 64.89% 50.05%);
 }
 
-
-
-.valutaHeader>.nCurrency {
-   letter-spacing: 3.5px;
-
+.valutaHeader > .nCurrency {
+  letter-spacing: 3.5px;
 }
 
-.valutaHeader>.buy {
-   color: #a18787;
+.valutaHeader > .buy {
+  color: #a18787;
 }
 
 .main {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.main>* {
-   font-family: 'Reem Kufi Ink', sans-serif;
-   font-size: 20px;
-   text-align: center;
+.main > * {
+  font-family: "Reem Kufi Ink", sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
 .changeCurrenty {
-   background-color: rgb(140, 240, 162);
+  background-color: rgb(140, 240, 162);
 }
 
 .change_buy {
-   background-color: #c0f68a;
+  background-color: #c0f68a;
 }
 
 .change_sell {
-   background-color: #d88686;
+  background-color: #d88686;
 }
 
 .select_usd {
-   color: hsl(340 85% 50% / 1);
+  color: hsl(340 85% 50% / 1);
 }
 
 .select_eur {
-   color: hsl(225 85% 50% / 1);
+  color: hsl(225 85% 50% / 1);
 }
 
 .select_uah {
-   color: rgb(223, 219, 6);
+  color: rgb(223, 219, 6);
 }
 
 #input1 {
-   background-color: lavender;
+  background-color: lavender;
 }
 
 #input2 {
-   background-color: lavender;
+  background-color: lavender;
 }
 
 #select1 {
-   background-color: #ebe9da;
+  background-color: #ebe9da;
 }
 
 #select2 {
-   background-color: #ebe9da;
+  background-color: #ebe9da;
 }
